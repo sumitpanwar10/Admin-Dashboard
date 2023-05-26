@@ -18,7 +18,7 @@ export const cardData = [
             {
                 name: "Mar",
                 UniquePlays: 2000,
-                TotalPlays: 9800
+                TotalPlays: 5200
             },
             {
                 name: "Apr",
