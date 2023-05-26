@@ -1,6 +1,5 @@
-import React from 'react'
 
-export const data = [
+export const cardData = [
     {
         key: '1',
         title: 'Zen Garden',
@@ -36,7 +35,7 @@ export const data = [
     {
         key: '5',
         title: 'Angelie Whisper',
-        image: 'https://uploads-ssl.webflow.com/60f31ffb47d0ac4b28d56fb6/6228db61c46c4d4fcd4379de_healing_light_result-p-500.jpeg',
+        image: 'https://uploads-ssl.webflow.com/60f31ffb47d0ac4b28d56fb6/6228db42526c843f77975b61_angelic_whisper_result.jpg',
         unique_plays: 78,
         total_plays: 90,
         completion_rate: 26  
