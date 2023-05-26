@@ -1,5 +1,5 @@
 import React from 'react'
-import { cardData } from './lib/consts/cardData'
+import { cardData, chartData } from './lib/consts/cardData'
 import ProgressBar from "@ramonak/react-progress-bar";
 
 import Chart from './chart';
@@ -11,7 +11,7 @@ export default function Sounds() {
     <div className='flex flex-col gap-3 justiy-around'>
       <h1 className='text-4xl font-semibold text-indigo-700'>Sounds</h1>
       <div className='grid grid-cols-1 py-6'>
-        {cardData.map(({ key, title, image, unique_plays, total_plays, completion_rate }) => {
+        {cardData.map(({ key, title, image, data, unique_plays, total_plays, completion_rate },index) => {
           return (
             <div key={key} className='flex wrap '>
               <div className='flex  justify-center min-h-full'>
@@ -25,7 +25,7 @@ export default function Sounds() {
                   <div className='flex  flex-col gap-5 p-2 g-3'>
                     <div className=''>
                       <p className='text-xs font-semibold p-3  text-gray-700 pb-3'>Unique and Total plays:</p>
-                      <Chart />
+                      <Chart data={chartData[index]} />
                     </div>
                     
                     <div>

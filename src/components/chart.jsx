@@ -40,40 +40,40 @@ const data = [
     ,
     {
         name: "Aug",
-        UniquePlays: 3490,
-        TotalPlays: 4300
+        UniquePlays: 2490,
+        TotalPlays: 3300
     }
     ,
     {
         name: "Sep",
-        UniquePlays: 3490,
-        TotalPlays: 4300
+        UniquePlays: 1490,
+        TotalPlays: 2300
     }
     ,
     {
         name: "Oct",
-        UniquePlays: 3490,
-        TotalPlays: 4300
+        UniquePlays: 2890,
+        TotalPlays: 3200
     }
     ,
     {
         name: "Nov",
-        UniquePlays: 3490,
-        TotalPlays: 4300
+        UniquePlays: 1490,
+        TotalPlays: 2300
     }
     ,
     {
         name: "Dec",
         UniquePlays: 3490,
-        TotalPlays: 4300
+        TotalPlays: 4800
     }
 ];
 
-export default function Chart() {
+export default function Chart(props) {
     return (
         <div className="bg-white rounded-lg ">
         <ResponsiveContainer width={600} height={300}>
-            <LineChart width={500} height={300} data={data}>
+            <LineChart width={500} height={300} data={props.data}>
                 <XAxis dataKey="name"/>
                 <YAxis />
                 <Legend />
