@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/admin-dashboard",
+  "homepage": "https://sumitpanwar10.github.io/admin-dashboard",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.3",
