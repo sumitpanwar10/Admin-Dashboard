@@ -10,7 +10,7 @@ export default function Sounds() {
   return (
     <div className='flex flex-col gap-3 justiy-around'>
       <h1 className='text-4xl pt-2 font-semibold text-indigo-700'>Sounds</h1>
-      <div className='grid grid-cols-2 gap-4 pb-6'>
+      <div className='grid grid-cols-1 gap-4 pb-6 md:grid-cols-2 '>
         {cardData.map(({ key, title, image, completion_rate }, index) => {
           return (
             <div key={key} className='flex wrap '>
