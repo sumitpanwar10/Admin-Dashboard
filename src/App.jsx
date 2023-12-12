@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/shared/Layout";
 import Dashboard from "./components/Dashboard"
-import Sounds from "./components/sounds";
+import Sounds from "./components/Sounds";
 
 function App() {
   return (
